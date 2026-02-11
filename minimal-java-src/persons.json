@@ -1,0 +1,49 @@
+[ {
+  "id" : "001",
+  "name" : "Sonal Kumar",
+  "address" : {
+    "line1" : "9C, Tower 6, Greenfield Elegance",
+    "city" : "Kolkata",
+    "street" : "9C, Tower 6, Greenfield Elegance"
+  },
+  "gender" : "Male",
+  "bloodGroup" : "AB+",
+  "email" : "sonalshrin@gmail.com",
+  "phone" : "09717157576"
+}, {
+  "id" : "002",
+  "name" : "Nilmadhav Das",
+  "address" : {
+    "line1" : "9C, Tower 6, Greenfield Elegance",
+    "city" : "Kolkata",
+    "street" : "9C, Tower 6, Greenfield Elegance"
+  },
+  "gender" : "Male",
+  "bloodGroup" : "B+",
+  "email" : "dasnil@gmail.com",
+  "phone" : "09999999999"
+}, {
+  "id" : "003",
+  "name" : "Akash Jyoti",
+  "address" : {
+    "line1" : "kochhi",
+    "city" : "kerala",
+    "street" : "kochhi"
+  },
+  "gender" : "Male",
+  "bloodGroup" : "B+",
+  "email" : "jyotiAkash@gmail.com",
+  "phone" : "08888888888"
+}, {
+  "id" : "004",
+  "name" : "Pratishtha Mishra",
+  "address" : {
+    "line1" : "IIT KGP",
+    "city" : "West Bangal",
+    "street" : "IIT KGP"
+  },
+  "gender" : "Female",
+  "bloodGroup" : "B+",
+  "email" : "mpratishtha@gmail.com",
+  "phone" : "07985984300"
+} ]
