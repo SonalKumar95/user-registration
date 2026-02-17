@@ -1,0 +1,262 @@
+nohup: ignoring input
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2026-01-29T13:21:58.542+05:30  INFO 442835 --- [           main] com.example.App                          : Starting App using Java 21.0.9 with PID 442835 (/home/300320@USTDEV.COM/test_one/user-registration/minimal-java-src/target/minimal-java-mvn-1.0.0.jar started by 300320@USTDEV.COM in /home/300320@USTDEV.COM/test_one/user-registration/minimal-java-src)
+2026-01-29T13:21:58.543+05:30 DEBUG 442835 --- [           main] com.example.App                          : Running with Spring Boot v3.2.1, Spring v6.1.2
+2026-01-29T13:21:58.544+05:30  INFO 442835 --- [           main] com.example.App                          : No active profile set, falling back to 1 default profile: "default"
+2026-01-29T13:21:59.199+05:30  INFO 442835 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-29T13:21:59.211+05:30  INFO 442835 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-29T13:21:59.212+05:30  INFO 442835 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2026-01-29T13:21:59.235+05:30  INFO 442835 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-29T13:21:59.236+05:30  INFO 442835 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 621 ms
+Error loading persons from file: Unrecognized field "street" (class com.example.model.Address), not marked as ignorable (2 known properties: "city", "line1"])
+ at [Source: (File); line: 7, column: 17] (through reference chain: java.util.ArrayList[0]->com.example.model.Person["address"]->com.example.model.Address["street"])
+2026-01-29T13:21:59.363+05:30  INFO 442835 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-01-29T13:21:59.544+05:30  INFO 442835 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-01-29T13:21:59.556+05:30  INFO 442835 --- [           main] com.example.App                          : Started App in 1.316 seconds (process running for 1.637)
+2026-01-29T13:22:19.413+05:30  INFO 442835 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29T13:22:19.413+05:30  INFO 442835 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-29T13:22:19.414+05:30  INFO 442835 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-29T13:22:19.585+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 0 persons
+2026-01-29T13:22:21.597+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 0 persons
+2026-01-29T13:22:23.580+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 0 persons
+2026-01-29T13:22:25.586+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 0 persons
+2026-01-29T13:22:27.594+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 0 persons
+2026-01-29T13:22:28.088+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Registering person: Sonal Kumar
+2026-01-29T13:22:28.095+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Successfully registered person: Sonal Kumar (001) @ 9C, Tower 6, Greenfield Elegance, Kolkata
+2026-01-29T13:22:28.213+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:29.589+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:31.588+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:33.582+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:35.596+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:37.581+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:39.586+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:41.585+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:43.586+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:45.584+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:47.593+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:49.593+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:51.608+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:53.579+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:55.582+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:57.592+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:22:59.579+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:23:01.604+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:23:03.587+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:23:05.596+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:23:07.581+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:23:09.589+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:23:11.592+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 1 persons
+2026-01-29T13:23:13.279+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Registering person: Nilmadhav Das
+2026-01-29T13:23:13.280+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Successfully registered person: Nilmadhav Das (002) @ 9C, Tower 6, Greenfield Elegance, Kolkata
+2026-01-29T13:23:13.413+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:13.583+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:15.582+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:17.587+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:19.592+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:21.581+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:23.578+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:25.581+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:27.580+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:29.579+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:31.590+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:33.580+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:35.591+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:37.590+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:39.585+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:41.580+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:43.589+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:45.594+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:47.592+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:49.581+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 2 persons
+2026-01-29T13:23:49.702+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Registering person: Akash Jyoti
+2026-01-29T13:23:49.702+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Successfully registered person: Akash Jyoti (003) @ 9C, Tower 6, Greenfield Elegance, Kolkata
+2026-01-29T13:23:49.825+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:23:51.581+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:23:53.596+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:23:55.579+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:23:57.991+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:23:59.990+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:02.053+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:04.021+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:06.006+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:07.987+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:09.984+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:11.983+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:13.988+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:15.983+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:17.989+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:19.992+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:21.979+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:23.986+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:25.988+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:27.986+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:29.989+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:31.984+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:33.992+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:35.992+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:37.989+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:39.986+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:41.987+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:43.980+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:45.984+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:47.998+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:49.992+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:51.993+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:53.985+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:24:55.984+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:25:33.991+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:26:33.998+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:27:33.995+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:28:33.982+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:29:33.978+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:30:33.984+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:31:33.990+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:32:33.981+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:33:34.696+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:34:34.737+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:35:33.980+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:36:33.999+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:37:34.022+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:38:33.977+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:39:33.988+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:40:33.971+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:41:33.980+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:42:33.985+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:43:33.989+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:44:33.985+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:45:34.631+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:46:33.977+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:47:33.979+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:48:33.985+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:49:33.980+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:50:33.977+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:51:33.995+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:52:33.972+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:53:33.986+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:54:33.982+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:55:33.976+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:56:33.970+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:57:33.985+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:58:33.982+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T13:59:33.980+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:00:33.972+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:01:33.987+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:02:33.971+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:03:33.984+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:04:33.977+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:05:33.974+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:06:33.969+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:07:34.633+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:08:33.981+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:09:33.971+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:10:33.969+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:11:33.967+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:12:33.980+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:13:33.972+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:14:33.989+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:15:33.977+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:16:33.983+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:17:33.976+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:18:33.973+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:19:33.970+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:20:33.985+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:12.143+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:13.582+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:15.573+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:17.988+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:19.980+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:21.973+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:23.976+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:25.978+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:27.981+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:29.971+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:31.982+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:33.973+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:35.978+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:37.982+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:39.983+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:41.976+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:43.973+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:45.971+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:48.003+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:49.984+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:51.974+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:53.970+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:55.978+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:57.977+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:21:59.982+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:01.971+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:03.983+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:05.971+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:07.971+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:09.970+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:11.984+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:14.029+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:15.968+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:22:33.973+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:23:33.971+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:24:33.972+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:25:33.968+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:26:33.975+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:27:33.974+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:28:33.995+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:29:33.969+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:30:33.975+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:31:33.970+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:32:33.975+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:33:33.976+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:34:33.975+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:35:33.973+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:36:33.980+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:37:33.977+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:38:33.968+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:39:33.987+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:40:33.977+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:41:33.970+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:42:33.978+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:43:33.979+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:44:33.970+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:45:33.973+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:46:33.967+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:47:33.971+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:48:33.979+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:49:33.970+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:50:33.972+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:51:33.979+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:52:33.974+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:53:33.975+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:54:33.972+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:55:34.635+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:56:33.979+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:57:33.981+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:58:33.978+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T14:59:33.965+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:00:33.990+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:01:33.961+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:02:33.961+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:03:33.973+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:04:33.965+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:05:33.975+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:06:34.602+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:07:33.966+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:08:33.968+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:09:33.970+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:10:33.972+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:11:33.975+05:30  INFO 442835 --- [nio-8080-exec-5] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:12:33.976+05:30  INFO 442835 --- [nio-8080-exec-1] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:13:33.963+05:30  INFO 442835 --- [nio-8080-exec-2] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:14:33.962+05:30  INFO 442835 --- [nio-8080-exec-3] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:15:33.977+05:30  INFO 442835 --- [nio-8080-exec-4] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:16:33.978+05:30  INFO 442835 --- [nio-8080-exec-6] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:17:33.967+05:30  INFO 442835 --- [nio-8080-exec-7] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:18:33.963+05:30  INFO 442835 --- [nio-8080-exec-8] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:19:33.965+05:30  INFO 442835 --- [nio-8080-exec-9] c.example.controller.PersonController    : Retrieved 3 persons
+2026-01-29T15:20:33.972+05:30  INFO 442835 --- [io-8080-exec-10] c.example.controller.PersonController    : Retrieved 3 persons
