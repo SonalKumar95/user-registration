@@ -1,0 +1,13 @@
+[ {
+  "id" : "001",
+  "name" : "Sonal KumarI",
+  "address" : {
+    "line1" : "9C, Tower 6, Greenfield Elegance",
+    "city" : "Kolkata",
+    "street" : "9C, Tower 6, Greenfield Elegance"
+  },
+  "gender" : "Male",
+  "bloodGroup" : "A+",
+  "email" : "xyz@gmail.com",
+  "phone" : "0999999999"
+} ]
